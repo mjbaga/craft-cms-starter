@@ -1,0 +1,22 @@
+dateModified: 1664680447
+email:
+  fromEmail: marvin@butter.com.hk
+  fromName: 'Butter Base'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0f5aadae-2721-41e8-933c-6e6c8efdaea6: 'Butter Base'
+    b5b45511-d660-4b43-99af-ecf49c21e74a: 'Butter Base'
+    f5d951bd-7589-4e90-a038-1d04fa2f7c1b: Common
+system:
+  edition: solo
+  live: true
+  name: 'Butter Base'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
