@@ -1,0 +1,23 @@
+/*
+ * Mobile-first implementation
+ * Style all base styles as from mobile then make changes as screen size increases
+ */
+
+.site-header {
+  margin: 0;
+  padding: 0;
+}
+
+// 1024px
+@include respond-to(sm-desktop) {
+  .site-header {
+    margin: 1rem 0;
+  }
+}
+
+// 1280px
+@include respond-to(sm-desktop) {
+  .site-header {
+    // add styles here
+  }
+}
