@@ -1,7 +1,6 @@
 const path = require('path');
 const webDir = 'web/';
 const srcdir = 'web/src/';
-const cssSrcDir = 'web/src/css/';
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 const webpack = require('webpack');
