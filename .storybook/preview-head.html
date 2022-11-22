@@ -1,0 +1,50 @@
+<script type="text/javascript">
+  window.runOnInit = function () {
+    window.runOnPageChange();
+  };
+  window.runOnPageChange = function () {
+    console.log('Page updated');
+  };
+  /*
+  // Sample code for fetching project CSS from a manifest file
+  document.addEventListener(
+    'DOMContentLoaded',
+    function () {
+      window.runOnInit();
+      const callback = function (mutationsList) {
+        for (let i = 0, len = mutationsList.length; i < len; i++) {
+          if (mutationsList[i].type == 'childList') {
+            window.runOnPageChange();
+            break;
+          }
+        }
+      };
+      const observer = new MutationObserver(callback);
+      const config = { childList: true, subtree: false };
+      observer.observe(document.getElementById('root'), config);
+
+      // Fetch assets manifest
+      fetch('https://craft4.local/assets/assets-manifest.json')
+        .then((response) => response.json())
+        .then((json) => {
+          if (json['css/storybook.css']) {
+            const cssFile = `https://craft4.local${json['css/storybook.css']}`;
+            const link = document.createElement('link');
+            link.href = cssFile;
+            link.type = 'text/css';
+            link.rel = 'stylesheet';
+            link.media = 'screen';
+            document.getElementsByTagName('head')[0].appendChild(link);
+          }
+        });
+    },
+    false
+  );
+  */
+</script>
+
+<style>
+  .sb-show-main {
+    background-color: white;
+  }
+</style>

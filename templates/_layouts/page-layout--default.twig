@@ -1,0 +1,33 @@
+{% set cacheVersion = random(11111, 99999) %}
+
+<!DOCTYPE html>
+<html lang="{{ craft.app.language|slice(0,2) }}">
+  <head>
+    {% include "_boilerplate/_partials/head-meta" %}
+    <link href="/dist/app.css?v={{ cacheVersion }}" rel="stylesheet">
+    <link rel="icon" href="/dist/images/favicon.png">
+    <style>
+        [v-cloak] {display: none !important;}
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </head>
+  <body class="page-{{ (entry is defined)? entry.type : '' }}">
+
+    {% include "_partials/header" %}
+
+    <main>
+      {% block content %}
+
+      {% endblock %}
+    </main>
+
+    {% include "_partials/footer" %}
+
+    <div id="overlays">
+      <div class="backdrop"></div>
+    </div>
+
+    <script src="/dist/app.js?v={{ cacheVersion }}" defer></script>
+
+  </body>
+</html>
