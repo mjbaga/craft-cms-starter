@@ -1,0 +1,7 @@
+{# Defaults #}
+{%- set alt = alt ?? false -%}
+
+{# Template #}
+{%- if src is defined -%}
+<img src="{{src}}" {% if alt %}alt="{{alt}}"{% endif %}/>
+{% endif %}
