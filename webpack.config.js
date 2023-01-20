@@ -48,7 +48,7 @@ module.exports = {
       patterns: [
         { from: 'web/src/icons', to: `icons` },
         { from: 'web/src/images', to: `images` },
-        { from: 'web/src/fonts', to: `fonts` },
+        // { from: 'web/src/fonts', to: `fonts` },
       ],
     }),
     new webpack.ProvidePlugin({
