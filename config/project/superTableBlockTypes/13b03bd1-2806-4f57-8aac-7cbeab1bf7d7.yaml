@@ -1,0 +1,84 @@
+changedFieldIndicator: 424037345
+field: 082c5614-1d5d-4619-bde0-482749dbd536 # Accordion
+fieldLayouts:
+  0f5555f6-b0f8-4d6a-a1d4-85f5f8f0fc83:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 34d757c2-6a46-4fac-abca-c39b46a73934 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6f5c02fe-9c8c-46fd-b388-af4f184ea545
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 883ce90a-ab3e-4732-a747-7441c90a4b61 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8fe79c51-99af-4760-8e96-d947dbae128d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 711cfd86-0263-4412-95f7-e6f43ce84815
+        userCondition: null
+fields:
+  34d757c2-6a46-4fac-abca-c39b46a73934: # Heading
+    columnSuffix: kzibjyzu
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  883ce90a-ab3e-4732-a747-7441c90a4b61: # Body
+    columnSuffix: ekzmtcca
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: null
+    name: Body
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
