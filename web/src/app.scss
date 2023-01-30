@@ -44,7 +44,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: calc-rem(20px);
-  font-size: calc-rem(16);
+  font-size: calc-rem(16px);
   font-family: $bodyFont;
   width: 100%;
   font-weight: 400;
@@ -199,5 +199,5 @@ select {
 /* Modules             */
 /* ------------------- */
 
-@import './css/components/SiteHeader.scss';
-@import './css/components/SiteFooter.scss';
+// @import './css/components/SiteHeader.scss';
+@import './css/components/Accordion.scss';
