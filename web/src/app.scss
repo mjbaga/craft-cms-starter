@@ -93,6 +93,10 @@ select {
   }
 }
 
+section {
+  margin-block: 2rem;
+}
+
 /* ------------------- */
 /* Utility classes     */
 /* ------------------- */
@@ -199,6 +203,7 @@ select {
 /* Modules             */
 /* ------------------- */
 
-// @import './css/components/SiteHeader.scss';
 @import './css/components/Accordion.scss';
 @import './css/components/BlockTabs.scss';
+@import './css/components/SiteHeader.scss';
+@import './css/components/SiteFooter.scss';

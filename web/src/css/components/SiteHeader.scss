@@ -11,7 +11,79 @@
 // 1024px
 @include respond-to(sm-desktop) {
   .site-header {
-    margin: 1rem 0;
+    margin: 0;
+    padding: 0;
+    color: color(white);
+    background-color: color(black);
+    
+    &__notification {
+      text-align: center;
+    }
+
+    &__container{
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+
+      & > div {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    &__logo {
+      filter : invert(1);
+
+      img {
+        height: 45px;
+      }
+    }
+
+    &__navigation {
+      width: 50%;
+
+      .site-navigation {
+        width: 100%;
+      }
+
+      .main-menu {
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        .menu {
+
+          .sub-menu {
+            position: absolute;
+            border: solid 1px color(white);
+            background-color: color(black);
+            padding: 1rem;
+            list-style: none;
+            display: none;
+            z-index: 1;
+          }
+
+          &:hover {
+            .sub-menu {
+              // display: block;
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+            }
+          }
+        }
+
+
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: color(white);
+    }
   }
 }
 

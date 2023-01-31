@@ -1,0 +1,19 @@
+<footer class="site-footer">
+	<div class="container">
+		<div class="site-footer__top">
+		</div>
+		<div class="site-footer__bottom">
+			<div class="site-footer__logo">
+				<img src="/dist/images/digital-butter-logo.svg" alt="logo">
+			</div>
+			<div class="site-footer__legal">
+				{% for legal in footer.legalNavigation.all() %}
+					<a href="{{legal.navlink.url}}">{{ legal.navlink.getCustomText() }}</a>
+				{% endfor %}
+			</div>
+			<div>
+				<p class="copyright">{{footer.copyright}}</p>
+			</div>
+		</div>
+	</div>
+</footer>

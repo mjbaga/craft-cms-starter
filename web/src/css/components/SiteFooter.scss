@@ -1,0 +1,29 @@
+.site-footer {
+	background: color(black);
+	padding-block: 2rem 2rem;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		color : color(white);
+
+		& > div {
+			display: flex;
+			align-items: center;
+		}
+
+		img {
+			filter : invert(1);
+			height: 45px;
+		}
+	}
+
+	&__legal {
+		gap: 20px;
+	}
+}
