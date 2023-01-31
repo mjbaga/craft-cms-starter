@@ -1,0 +1,36 @@
+fieldLayouts:
+  fbbb5878-d96e-4b08-b90f-fee811fcddb9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8c9b4348-184c-4e97-99a4-6d2a6157189c # Announcement
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c9f8d6d-3309-4303-a2f0-56baa7f8d479
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c0852df2-0482-43b0-ae48-eeb443a415e7 # Main Navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: adcb7777-aee4-474f-9e76-138a2d9c0436
+            userCondition: null
+            warning: null
+            width: 100
+        name: Announcement
+        uid: dac77257-435c-42fd-a4e3-393eba404d45
+        userCondition: null
+handle: header
+name: Header
+sortOrder: 1
