@@ -203,8 +203,7 @@ fields:
       selectionLabel: null
       showSiteMenu: true
       source: null
-      sources:
-        - 'section:c4a33146-25e2-4b36-97cb-b6bc2032389c' # Pages
+      sources: '*'
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null

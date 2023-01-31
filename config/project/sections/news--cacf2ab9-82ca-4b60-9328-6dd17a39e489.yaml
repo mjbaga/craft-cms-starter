@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: news
+name: News
+propagationMethod: all
+siteSettings:
+  b5b45511-d660-4b43-99af-ecf49c21e74a:
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/entry.twig
+    uriFormat: 'news/{slug}'
+type: channel
