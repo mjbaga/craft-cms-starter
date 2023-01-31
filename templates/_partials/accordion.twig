@@ -1,0 +1,14 @@
+<div class="accordion">
+  {% for acc in accordion %}
+    <div class="accordion-item">
+      <div class="accordion-heading">
+        <button>
+          <span>{{ acc.heading }}</span>
+        </button>
+      </div>
+      <div class="accordion-body">
+        {{ acc.body }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

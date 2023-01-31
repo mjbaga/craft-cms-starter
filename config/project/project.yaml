@@ -1,13 +1,31 @@
-dateModified: 1675070287
+dateModified: 1675067012
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    0f5aadae-2721-41e8-933c-6e6c8efdaea6: 'Butter Base'
-    b5b45511-d660-4b43-99af-ecf49c21e74a: 'Butter Base'
-    f5d951bd-7589-4e90-a038-1d04fa2f7c1b: Common
+    0f5aadae-2721-41e8-933c-6e6c8efdaea6: 'Butter Base' # Butter Base
+    17fb8838-f4d8-4a38-9156-1122b6ee8786: Body # Body
+    34d757c2-6a46-4fac-abca-c39b46a73934: Heading # Heading
+    78edba3e-0c3b-4229-a26a-38a8b83a1c35: Heading # Heading
+    082c5614-1d5d-4619-bde0-482749dbd536: Accordion # Accordion
+    240f0a17-fabc-400a-972b-f66a52e68c4f: Default # Default
+    883ce90a-ab3e-4732-a747-7441c90a4b61: Body # Body
+    a235ed0c-eb02-40e7-9562-90a73bbc794e: Accordion # Accordion
+    b5b45511-d660-4b43-99af-ecf49c21e74a: 'Butter Base' # Butter Base
+    c4a33146-25e2-4b36-97cb-b6bc2032389c: Pages # Pages
+    ea94f442-5271-4806-9615-d5646aa78587: 'Content Blocks' # Content Blocks
+    f5d951bd-7589-4e90-a038-1d04fa2f7c1b: Common # Common
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
 system:
   edition: solo
   live: true

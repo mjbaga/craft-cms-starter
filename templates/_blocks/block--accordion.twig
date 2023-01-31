@@ -1,0 +1,11 @@
+{% set accordion = block.accordion.all() %}
+<section class="block--accordion">
+	<div class="container">
+		<h2>{{block.heading}}</h2>
+		<p>{{block.body}}</p>
+
+		{% if accordion|length %}
+			{% include '_partials/accordion' with { accordion: accordion } %}
+		{% endif %}
+	</div>
+</section>
