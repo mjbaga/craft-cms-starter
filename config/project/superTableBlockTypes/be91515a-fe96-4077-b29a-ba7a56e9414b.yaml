@@ -1,46 +1,46 @@
-changedFieldIndicator: 2014819100
-field: 94211255-4d75-4bc2-87c1-ebb3707903e7 # Tabs
+changedFieldIndicator: 941351257
+field: a95ded72-28f3-40b1-84c8-7a4de0d59fdc
 fieldLayouts:
-  29285989-44c3-4ef4-9d94-12f10365e971:
+  e0dfd133-66be-4448-8073-ddba82f5b8d0:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: ce124ebe-b018-4d4c-b53a-f76757514026 # Tab Heading
+            fieldUid: c4119900-004c-4731-9081-de3a696eacde
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c94c3ba2-ef6c-4ccb-8df8-73b1c6ff558b
+            uid: c509f5bd-1220-44c6-bc0a-3103612bb217
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 00e79fbb-9025-48bc-86e0-6d1bba5d24ac # Tab Content
+            fieldUid: 3127e518-f710-485b-9cd9-68f3382f27b4
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 87fb0019-b8c0-4721-8048-6e3526bd0724
+            uid: d1edbaa8-3d58-41ea-82a5-48b99bca9993
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: e527b601-a0e8-42c8-ab77-4428c63a9922
+        uid: 98210aba-32f8-46b6-ad12-a353701fb7cb
         userCondition: null
 fields:
-  00e79fbb-9025-48bc-86e0-6d1bba5d24ac: # Tab Content
-    columnSuffix: khsjafrl
+  3127e518-f710-485b-9cd9-68f3382f27b4:
+    columnSuffix: oydcpjnd
     contentColumnType: text
     fieldGroup: null
-    handle: tabContent
+    handle: body
     instructions: null
-    name: 'Tab Content'
+    name: Body
     searchable: false
     settings:
       availableTransforms: ''
@@ -62,13 +62,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  ce124ebe-b018-4d4c-b53a-f76757514026: # Tab Heading
-    columnSuffix: wvctuqee
+  c4119900-004c-4731-9081-de3a696eacde:
+    columnSuffix: djnviofx
     contentColumnType: text
     fieldGroup: null
-    handle: tabHeading
+    handle: heading
     instructions: null
-    name: 'Tab Heading'
+    name: Heading
     searchable: false
     settings:
       byteLimit: null
