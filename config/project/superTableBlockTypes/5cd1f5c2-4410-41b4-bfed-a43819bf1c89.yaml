@@ -1,0 +1,148 @@
+changedFieldIndicator: 223508690
+field: c0852df2-0482-43b0-ae48-eeb443a415e7 # Main Navigation
+fieldLayouts:
+  926e2622-b2f6-4a7d-a221-dadbeb0923d8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b6f093f0-e38b-466f-8c0f-1e8db96d4cd3 # Menu Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 886dc85d-657f-495f-ab9d-26ac14ab6989
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 919d3e3b-e519-41d6-bc52-9d7f689a94f3 # Navlink
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c78b0d3b-7181-4c7a-a0a2-a1ee4e335cf7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c2316d1e-96a1-48ef-9a2c-1fae3f850929 # Submenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f0690f8e-d729-47aa-843f-a9a32963b483
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2ae9277c-b089-422f-9561-da88888efde7
+        userCondition: null
+fields:
+  919d3e3b-e519-41d6-bc52-9d7f689a94f3: # Navlink
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: navlink
+    instructions: null
+    name: Navlink
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  b6f093f0-e38b-466f-8c0f-1e8db96d4cd3: # Menu Title
+    columnSuffix: gbeozgyr
+    contentColumnType: text
+    fieldGroup: null
+    handle: menuTitle
+    instructions: null
+    name: 'Menu Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c2316d1e-96a1-48ef-9a2c-1fae3f850929: # Submenu
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: submenu
+    instructions: null
+    name: Submenu
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_submenu}}'
+      maxBlocks: null
+      minBlocks: null
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix

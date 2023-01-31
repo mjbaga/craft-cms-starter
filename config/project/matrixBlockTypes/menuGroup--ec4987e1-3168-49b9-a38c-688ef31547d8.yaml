@@ -1,0 +1,121 @@
+field: c2316d1e-96a1-48ef-9a2c-1fae3f850929 # Submenu
+fieldLayouts:
+  1c5b5132-71d0-4592-88dc-f51309035fbe:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 230f5dc9-0101-42f6-8cc5-aa93235c2396 # Menu Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0f3f2b10-5c97-40ec-8ebe-732bb0569e0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5b0ff9ce-59f0-4c80-aa74-97bbcea5b5fc # navlink
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 468fb224-0d2d-42cb-b2e9-e40703a20056
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ed798c21-4b29-4576-954d-e329c690633e
+        userCondition: null
+fields:
+  5b0ff9ce-59f0-4c80-aa74-97bbcea5b5fc: # navlink
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: navlink
+    instructions: null
+    name: navlink
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  230f5dc9-0101-42f6-8cc5-aa93235c2396: # Menu Title
+    columnSuffix: iwxfazyr
+    contentColumnType: text
+    fieldGroup: null
+    handle: menuTitle
+    instructions: null
+    name: 'Menu Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: menuGroup
+name: 'Menu Group'
+sortOrder: 1
