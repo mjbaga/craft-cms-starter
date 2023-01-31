@@ -17,6 +17,30 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: d5964d39-cf97-4afa-bd58-0decc4272b87
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ddecca09-3417-46e5-8427-559bbb93a30f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a95ded72-28f3-40b1-84c8-7a4de0d59fdc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9f93a57d-8e68-49e1-8f9f-b5944f78a505
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: c7c21963-a920-4603-8704-30861fd76e55
         userCondition: null
@@ -41,6 +65,56 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  a95ded72-28f3-40b1-84c8-7a4de0d59fdc:
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: accordion
+    instructions: null
+    name: Accordion
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 980283343
+      contentTable: '{{%stc_4_accordion}}'
+      fieldLayout: table
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+  d5964d39-cf97-4afa-bd58-0decc4272b87:
+    columnSuffix: gwhvfexq
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: null
+    name: body
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
 handle: accordion
 name: Accordion
 sortOrder: 1
