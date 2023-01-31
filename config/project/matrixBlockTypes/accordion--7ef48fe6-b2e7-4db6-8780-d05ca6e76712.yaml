@@ -75,24 +75,8 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 867278227
-      columns:
-        __assoc__:
-          -
-            - c4119900-004c-4731-9081-de3a696eacde # Heading
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-          -
-            - 3127e518-f710-485b-9cd9-68f3382f27b4 # Body
-            -
-              __assoc__:
-                -
-                  - width
-                  - ''
-      contentTable: '{{%stc_2_accordion}}'
+      changedFieldIndicator: 980283343
+      contentTable: '{{%stc_4_accordion}}'
       fieldLayout: table
       maxRows: null
       minRows: null

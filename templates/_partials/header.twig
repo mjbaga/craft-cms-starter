@@ -1,0 +1,37 @@
+<header class="site-header">
+	{% if header.announcement|length %}
+		<div class="site-header__notification">
+			{{ header.announcement }}
+			<button class="btn-close accouncement-close">
+				Close
+			</button>
+		</div>
+  {% endif %}
+	<div class="container site-header__container">
+		<div class="site-header__logo">
+			<img src="/dist/images/digital-butter-logo.svg" alt="logo">
+		</div>
+		<div class="site-header__navigation">
+			<nav class="site-navigation">
+				<ul class="main-menu">
+				{% for group in header.mainNavigation.all() %}
+					<li class="menu">
+						<a>{{ group.menuTitle }}</a>
+							<ul class="sub-menu">
+							{% for submenu in group.submenu.all() %}
+								<li>
+									<a href="{{submenu.navlink.url}}">{{ submenu.menuTitle }}</a>
+								</li>
+							{% endfor %}
+							</ul>
+					</li>
+				{% endfor %}
+				
+				</ul>
+			</nav>
+		</div>
+		<div class="site-header__controls">
+			<a href="#"> Contact Us</a>
+		</div>
+	</div>
+</header>
