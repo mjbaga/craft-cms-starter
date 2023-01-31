@@ -17,6 +17,6 @@ jobs:
           username: ${{secrets.SSH_USERNAME}}
 
           script: |
-            cd /var/www/guidepost
+            cd /var/www/butterbase
             bash ./.scripts/deploy.sh
             echo 'Deployment Successful to digital ocean'
