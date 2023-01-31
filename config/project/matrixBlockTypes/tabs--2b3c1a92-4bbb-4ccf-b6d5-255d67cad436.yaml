@@ -1,0 +1,80 @@
+field: 3193946b-b765-4d14-a0ab-a4566728f07c # Content Blocks
+fieldLayouts:
+  099dac7b-3755-40b2-9bf2-3448cc67d6dc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 94211255-4d75-4bc2-87c1-ebb3707903e7
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 86c3425e-2859-4c26-96d2-b423a6b2690d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1e76e75a-703a-4fa0-a4b7-6900bddca66f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8b65858f-6167-477b-b780-57e8a83de3c3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a51ac343-0819-4000-af17-1116e3b9d533
+        userCondition: null
+fields:
+  1e76e75a-703a-4fa0-a4b7-6900bddca66f:
+    columnSuffix: fdfumzdb
+    contentColumnType: text
+    fieldGroup: null
+    handle: paddingClasses
+    instructions: "These classes will be added to the block: [padding-type]-[padding-amount]\r\nClasses are separated by spaces\r\nExample: ptd-2 adds 2rem top padding for desktop\r\nPadding Types:\r\nptm - padding top for mobile\r\nptb - padding bottom for mobile\r\nptd - padding top for desktop\r\npbd - padding bottom for desktop\r\nPadding amount: 1 through 10, numbers represent rem (16px each)\r\n"
+    name: 'Padding Classes'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  94211255-4d75-4bc2-87c1-ebb3707903e7:
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: tab
+    instructions: null
+    name: Tab
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 12690490
+      contentTable: '{{%stc_tab}}'
+      fieldLayout: row
+      maxRows: 5
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+handle: tabs
+name: Tabs
+sortOrder: 2
