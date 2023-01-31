@@ -1,0 +1,46 @@
+field: 3193946b-b765-4d14-a0ab-a4566728f07c
+fieldLayouts:
+  eca0b235-3493-4a97-b33f-7c02e4a10450:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0e83711a-9cf5-475a-8870-95cf36695d4a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 208f3aeb-92a4-430c-8818-7f8073d76171
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c7c21963-a920-4603-8704-30861fd76e55
+        userCondition: null
+fields:
+  0e83711a-9cf5-475a-8870-95cf36695d4a:
+    columnSuffix: gsacklap
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: accordion
+name: Accordion
+sortOrder: 1
