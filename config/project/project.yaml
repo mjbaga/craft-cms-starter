@@ -1,4 +1,4 @@
-dateModified: 1675154924
+dateModified: 1675158024
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -13,6 +13,7 @@ meta:
     02e08cf1-f4fb-48eb-956f-953bf078d484: Body # Body
     2e322a3d-6592-4626-89bf-c3286fc7f809: 'Legal Navigation' # Legal Navigation
     5b0ff9ce-59f0-4c80-aa74-97bbcea5b5fc: navlink # navlink
+    5ebbf446-f291-44cb-9ae9-77ccb6b2520f: 'Tab Heading'
     7b9a2d77-1523-489b-8c4b-4bfcdfc7dbc3: Copyright # Copyright
     7ef48fe6-b2e7-4db6-8780-d05ca6e76712: Accordion # Accordion
     8c9b4348-184c-4e97-99a4-6d2a6157189c: Announcement # Announcement
@@ -38,6 +39,7 @@ meta:
     b6f093f0-e38b-466f-8c0f-1e8db96d4cd3: 'Menu Title' # Menu Title
     b55d7ffd-972e-47ea-963a-483533b482dc: Header # Header
     b90fe952-cbf8-4780-9b6a-7ab674d54548: Body # Body
+    b177c7ba-2763-4f45-ab37-ddf88b5be6c1: 'Tab Content'
     b427388b-54d0-4be8-bea8-55771d9bfa34: 'Call to action' # Call to action
     c0852df2-0482-43b0-ae48-eeb443a415e7: 'Main Navigation' # Main Navigation
     c4a33146-25e2-4b36-97cb-b6bc2032389c: Pages # Pages

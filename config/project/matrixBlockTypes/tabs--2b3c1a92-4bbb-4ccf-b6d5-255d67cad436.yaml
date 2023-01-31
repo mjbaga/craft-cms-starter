@@ -63,7 +63,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 461635235
+      changedFieldIndicator: 1959375197
       contentTable: '{{%stc_3_tabs}}'
       fieldLayout: row
       maxRows: 5
