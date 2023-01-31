@@ -3,8 +3,13 @@
   // default css
   .accordion {
 
+    &-heading {
+      margin-top: 1rem;
+    }
+
     &-body {
       display: none;
+      margin-block: 1rem;
     }
   }
 }

@@ -1,0 +1,19 @@
+columnSuffix: vnuksghl
+contentColumnType: text
+fieldGroup: f5d951bd-7589-4e90-a038-1d04fa2f7c1b # Common
+handle: announcement
+instructions: 'Plain Text field'
+name: Announcement
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

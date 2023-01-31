@@ -1,4 +1,4 @@
-dateModified: 1675149448
+dateModified: 1675148192
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -12,11 +12,16 @@ meta:
     2b3c1a92-4bbb-4ccf-b6d5-255d67cad436: Tabs # Tabs
     02e08cf1-f4fb-48eb-956f-953bf078d484: Body # Body
     7ef48fe6-b2e7-4db6-8780-d05ca6e76712: Accordion # Accordion
+    2e322a3d-6592-4626-89bf-c3286fc7f809: 'Legal Navigation' # Legal Navigation
+    5b0ff9ce-59f0-4c80-aa74-97bbcea5b5fc: navlink # navlink
+    7b9a2d77-1523-489b-8c4b-4bfcdfc7dbc3: Copyright # Copyright
+    8c9b4348-184c-4e97-99a4-6d2a6157189c: Announcement # Announcement
     17fb8838-f4d8-4a38-9156-1122b6ee8786: Body # Body
     34d757c2-6a46-4fac-abca-c39b46a73934: Heading # Heading
     68f928fb-1a3a-4d60-bde4-8a8c7bbd28ae: Heading # Heading
     78edba3e-0c3b-4229-a26a-38a8b83a1c35: Heading # Heading
     082c5614-1d5d-4619-bde0-482749dbd536: Accordion # Accordion
+    230f5dc9-0101-42f6-8cc5-aa93235c2396: 'Menu Title' # Menu Title
     240f0a17-fabc-400a-972b-f66a52e68c4f: Default # Default
     801ae06f-6c06-400d-ad36-fc1d4017f972: Heading # Heading
     883ce90a-ab3e-4732-a747-7441c90a4b61: Body # Body
@@ -32,6 +37,18 @@ meta:
     ce124ebe-b018-4d4c-b53a-f76757514026: 'Tab Heading' # Tab Heading
     d2f74f8d-c18f-47d3-bf84-06ff803b0d92: Homepage # Homepage
     e19213fe-09b9-4f1b-be5f-0c6af684c979: 'Featured Items' # Featured Items
+    919d3e3b-e519-41d6-bc52-9d7f689a94f3: Navlink # Navlink
+    8466994d-4dfd-4f8f-89c4-b49c4d06c5e8: Navlink # Navlink
+    56547699-1cf7-4bff-93c7-3c3a1b82d699: Footer # Footer
+    a235ed0c-eb02-40e7-9562-90a73bbc794e: Accordion # Accordion
+    b5b45511-d660-4b43-99af-ecf49c21e74a: 'Butter Base' # Butter Base
+    b6f093f0-e38b-466f-8c0f-1e8db96d4cd3: 'Menu Title' # Menu Title
+    b55d7ffd-972e-47ea-963a-483533b482dc: Header # Header
+    c0852df2-0482-43b0-ae48-eeb443a415e7: 'Main Navigation' # Main Navigation
+    c4a33146-25e2-4b36-97cb-b6bc2032389c: Pages # Pages
+    c2316d1e-96a1-48ef-9a2c-1fae3f850929: Submenu # Submenu
+    ea94f442-5271-4806-9615-d5646aa78587: 'Content Blocks' # Content Blocks
+    ec4987e1-3168-49b9-a38c-688ef31547d8: 'Menu Group' # Menu Group
     f5d951bd-7589-4e90-a038-1d04fa2f7c1b: Common # Common
 plugins:
   redactor:

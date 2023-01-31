@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f5d951bd-7589-4e90-a038-1d04fa2f7c1b # Common
+handle: legalNavigation
+instructions: null
+name: 'Legal Navigation'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 1711522323
+  contentTable: '{{%stc_legalnavigation}}'
+  fieldLayout: table
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField
