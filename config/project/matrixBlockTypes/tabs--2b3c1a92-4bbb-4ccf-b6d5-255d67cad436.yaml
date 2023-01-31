@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 94211255-4d75-4bc2-87c1-ebb3707903e7 # Tab
+            fieldUid: 94211255-4d75-4bc2-87c1-ebb3707903e7 # Tabs
             instructions: null
             label: null
             required: false
@@ -53,7 +53,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  94211255-4d75-4bc2-87c1-ebb3707903e7: # Tab
+  94211255-4d75-4bc2-87c1-ebb3707903e7: # Tabs
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -63,7 +63,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 479531197
+      changedFieldIndicator: 997629356
       columns:
         __assoc__:
           -
