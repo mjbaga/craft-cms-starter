@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 94211255-4d75-4bc2-87c1-ebb3707903e7
+            fieldUid: 94211255-4d75-4bc2-87c1-ebb3707903e7 # Tab
             instructions: null
             label: null
             required: false
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 1e76e75a-703a-4fa0-a4b7-6900bddca66f
+            fieldUid: 1e76e75a-703a-4fa0-a4b7-6900bddca66f # Padding Classes
             instructions: null
             label: null
             required: false
@@ -33,12 +33,12 @@ fieldLayouts:
         uid: a51ac343-0819-4000-af17-1116e3b9d533
         userCondition: null
 fields:
-  1e76e75a-703a-4fa0-a4b7-6900bddca66f:
+  1e76e75a-703a-4fa0-a4b7-6900bddca66f: # Padding Classes
     columnSuffix: fdfumzdb
     contentColumnType: text
     fieldGroup: null
     handle: paddingClasses
-    instructions: "These classes will be added to the block: [padding-type]-[padding-amount]\r\nClasses are separated by spaces\r\nExample: ptd-2 adds 2rem top padding for desktop\r\nPadding Types:\r\nptm - padding top for mobile\r\nptb - padding bottom for mobile\r\nptd - padding top for desktop\r\npbd - padding bottom for desktop\r\nPadding amount: 1 through 10, numbers represent rem (16px each)\r\n"
+    instructions: "Add padding classes to the block: [padding-type]-[padding-amount]\r\nptm (padding top mobile), ptb (padding bottom mobile), ptd (padding top desktop), pbd (padding bottom desktop)\r\ne.g. ptm-2 adds 2rem of padding top mobile"
     name: 'Padding Classes'
     searchable: false
     settings:
@@ -53,18 +53,34 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  94211255-4d75-4bc2-87c1-ebb3707903e7:
+  94211255-4d75-4bc2-87c1-ebb3707903e7: # Tab
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: tab
+    handle: tabs
     instructions: null
-    name: Tab
+    name: Tabs
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 12690490
-      contentTable: '{{%stc_tab}}'
+      changedFieldIndicator: 479531197
+      columns:
+        __assoc__:
+          -
+            - ce124ebe-b018-4d4c-b53a-f76757514026 # Tab Heading
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 00e79fbb-9025-48bc-86e0-6d1bba5d24ac # Tab Content
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_3_tabs}}'
       fieldLayout: row
       maxRows: 5
       minRows: null

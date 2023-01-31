@@ -1,0 +1,36 @@
+{% set tabs = block.tabs %}
+<section class="block--tabs">
+  <div class="container">
+    {# Tab headings #}
+    <ul class="tab-headings">
+      {% for tab in tabs %}
+        <li>
+          <button
+            class="tab-btn {{ loop.index0 == 0 ? "active" : '' }}" 
+            role="tab"
+            aria-selected="{{ loop.index0 == 0 ? true : false }}"
+            aria-controls="{{ (tab.tabHeading|lower)|replace({' ': '-'}) }}"
+            tabIndex="{{ loop.index0 == 0 ? 0 : -1}}"
+          >
+            {{ tab.tabHeading }}
+          </button>
+        </li>
+      {% endfor %}
+    </ul>
+
+    {# Tab content #}
+    <div class="tabs-content">
+      {% for tab in tabs %}
+        <div 
+          id="{{ (tab.tabHeading|lower)|replace({' ': '-'}) }}"
+          class="tab-panel flow {{ loop.index0 == 0 ? "active" : '' }}" 
+          role="tabpanel"
+          tabIndex="{{ loop.index0 == 0 ? 0 : -1}}"
+        >
+          {{ tab.tabContent|raw }}
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

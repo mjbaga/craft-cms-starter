@@ -1,5 +1,5 @@
-changedFieldIndicator: 586144312
-field: 94211255-4d75-4bc2-87c1-ebb3707903e7
+changedFieldIndicator: 846036394
+field: 94211255-4d75-4bc2-87c1-ebb3707903e7 # Tab
 fieldLayouts:
   29285989-44c3-4ef4-9d94-12f10365e971:
     tabs:
@@ -8,7 +8,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: ce124ebe-b018-4d4c-b53a-f76757514026
+            fieldUid: ce124ebe-b018-4d4c-b53a-f76757514026 # Tab Heading
             instructions: null
             label: null
             required: false
@@ -20,7 +20,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 00e79fbb-9025-48bc-86e0-6d1bba5d24ac
+            fieldUid: 00e79fbb-9025-48bc-86e0-6d1bba5d24ac # Tab Content
             instructions: null
             label: null
             required: false
@@ -34,7 +34,7 @@ fieldLayouts:
         uid: e527b601-a0e8-42c8-ab77-4428c63a9922
         userCondition: null
 fields:
-  00e79fbb-9025-48bc-86e0-6d1bba5d24ac:
+  00e79fbb-9025-48bc-86e0-6d1bba5d24ac: # Tab Content
     columnSuffix: khsjafrl
     contentColumnType: text
     fieldGroup: null
@@ -62,7 +62,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  ce124ebe-b018-4d4c-b53a-f76757514026:
+  ce124ebe-b018-4d4c-b53a-f76757514026: # Tab Heading
     columnSuffix: wvctuqee
     contentColumnType: text
     fieldGroup: null
