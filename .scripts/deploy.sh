@@ -8,8 +8,8 @@ git fetch origin main
 
 (git commit -m "server yaml auto commit") || true
 
-echo "Pulled origin main"
+echo "Pulled origin master"
 git pull 
 
-echo "pushed origin main"
+echo "pushed origin master"
 (git push) || true 
