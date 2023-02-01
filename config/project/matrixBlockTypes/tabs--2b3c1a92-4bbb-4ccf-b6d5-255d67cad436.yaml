@@ -63,7 +63,23 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1959375197
+      changedFieldIndicator: 2022233701
+      columns:
+        __assoc__:
+          -
+            - 5ebbf446-f291-44cb-9ae9-77ccb6b2520f # Tab Heading
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - b177c7ba-2763-4f45-ab37-ddf88b5be6c1 # Tab Content
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
       contentTable: '{{%stc_3_tabs}}'
       fieldLayout: row
       maxRows: 5
