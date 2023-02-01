@@ -32,6 +32,30 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 6c7a48d4-7998-435f-8c90-3a90de3cbfea # Excerpt
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0dc08f5-ecca-4f18-9ad3-60cc2aa78d59
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f9de60c5-b728-4a0b-b1a4-07775d588038 # Thumbnail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06b69da6-a618-49c9-89ce-2aa2a348ee12
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 3193946b-b765-4d14-a0ab-a4566728f07c # Content Blocks
             instructions: null
             label: null
