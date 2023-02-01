@@ -2,7 +2,7 @@ set -e
 
 echo "Deployment started ..."
 
-git fetch origin main
+git fetch origin master
 
 (git add .) || true
 
