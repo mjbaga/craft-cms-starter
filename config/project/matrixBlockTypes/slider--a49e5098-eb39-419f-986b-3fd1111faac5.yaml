@@ -31,32 +31,32 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1471601294
+      changedFieldIndicator: 1219470681
       columns:
         __assoc__:
           -
-            - 35157187-1d59-475f-a134-67fb797046b6
+            - 5ea4cbc3-8c8d-4915-aed3-b240ed09f0a0 # Image
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - c815fb61-b24b-4de7-a1d1-d8bbd8b583f4
+            - 3ca4309c-3bd0-4452-820c-583090fee623 # Slidie Title
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - fa2e73aa-a1f5-480d-b37f-9961f67a64a1
+            - 3e4a4791-081c-44e5-b696-27fe15365b85 # Slide Content
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 32083c7e-92b0-401c-8469-c39692c0e47b
+            - 932ab354-ed04-4fc5-b29b-8c0940c05e3e # SlideLink
             -
               __assoc__:
                 -

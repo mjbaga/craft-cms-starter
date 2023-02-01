@@ -203,7 +203,9 @@ fields:
       selectionLabel: null
       showSiteMenu: true
       source: null
-      sources: '*'
+      sources:
+        - 'section:cacf2ab9-82ca-4b60-9328-6dd17a39e489' # News
+        - 'section:c4a33146-25e2-4b36-97cb-b6bc2032389c' # Pages
       targetSiteId: null
       validateRelatedElements: false
       viewMode: null

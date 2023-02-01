@@ -1,4 +1,4 @@
-changedFieldIndicator: 958501155
+changedFieldIndicator: 1921149979
 field: c8d24909-9834-4afa-9c6d-dfc0f16ef9d2 # Slide
 fieldLayouts:
   c05894c2-202b-434b-a160-f3fe89873bae:
@@ -119,7 +119,7 @@ fields:
       allowSubfolders: false
       allowUploads: true
       allowedKinds: null
-      defaultUploadLocationSource: null
+      defaultUploadLocationSource: 'volume:1ccee473-50af-40c5-8250-aaa76096767d' # Media
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maxRelations: null
@@ -128,7 +128,7 @@ fields:
       restrictFiles: false
       restrictLocation: false
       restrictedDefaultUploadSubpath: null
-      restrictedLocationSource: null
+      restrictedLocationSource: 'volume:1ccee473-50af-40c5-8250-aaa76096767d' # Media
       restrictedLocationSubpath: null
       selectionCondition:
         __assoc__:
@@ -142,7 +142,7 @@ fields:
             - class
             - craft\elements\conditions\assets\AssetCondition
       selectionLabel: null
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       source: null
