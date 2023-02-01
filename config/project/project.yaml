@@ -1,4 +1,4 @@
-dateModified: 1675230619
+dateModified: 1675240293
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -31,15 +31,19 @@ meta:
     3ca4309c-3bd0-4452-820c-583090fee623: 'Slidie Title' # Slidie Title
     3e4a4791-081c-44e5-b696-27fe15365b85: 'Slide Content' # Slide Content
     5b0ff9ce-59f0-4c80-aa74-97bbcea5b5fc: navlink # navlink
+    5cc122be-6d23-4ca8-b5d1-b04278888189: 'Google Map Url' # Google Map Url
     5ea4cbc3-8c8d-4915-aed3-b240ed09f0a0: Image # Image
     5ebbf446-f291-44cb-9ae9-77ccb6b2520f: 'Tab Heading' # Tab Heading
     6c7a48d4-7998-435f-8c90-3a90de3cbfea: Excerpt # Excerpt
+    6c11158a-84ff-4a6a-a2af-17430e6c537d: 'Address Details' # Address Details
+    07abc770-16d2-49e2-8552-48f144a6a8dc: 'Map Details' # Map Details
     7b9a2d77-1523-489b-8c4b-4bfcdfc7dbc3: Copyright # Copyright
     7ef48fe6-b2e7-4db6-8780-d05ca6e76712: Accordion # Accordion
     8c9b4348-184c-4e97-99a4-6d2a6157189c: Announcement # Announcement
     17fb8838-f4d8-4a38-9156-1122b6ee8786: Body # Body
     34d757c2-6a46-4fac-abca-c39b46a73934: Heading # Heading
     68f928fb-1a3a-4d60-bde4-8a8c7bbd28ae: Heading # Heading
+    77efd199-d2df-4fbf-8a4b-a55cb0261ad7: 'Address Details'
     78edba3e-0c3b-4229-a26a-38a8b83a1c35: Heading # Heading
     082c5614-1d5d-4619-bde0-482749dbd536: Accordion # Accordion
     230f5dc9-0101-42f6-8cc5-aa93235c2396: 'Menu Title' # Menu Title
@@ -49,7 +53,9 @@ meta:
     919d3e3b-e519-41d6-bc52-9d7f689a94f3: Navlink # Navlink
     932ab354-ed04-4fc5-b29b-8c0940c05e3e: SlideLink # SlideLink
     3127e518-f710-485b-9cd9-68f3382f27b4: Body # Body
+    9073db10-8a1d-4646-8415-156a86095b57: 'Google Map Embed' # Google Map Embed
     72756b12-b88c-44c1-9d00-947d14e9b5b9: Homepage # Homepage
+    92460f62-240e-4db2-bd9e-764a943afdeb: Type # Type
     3193946b-b765-4d14-a0ab-a4566728f07c: 'Content Blocks' # Content Blocks
     4449155e-ddc4-41c4-bbcf-1328a4630e92: 'Feature Cards' # Feature Cards
     8466994d-4dfd-4f8f-89c4-b49c4d06c5e8: Navlink # Navlink
@@ -72,6 +78,7 @@ meta:
     ce124ebe-b018-4d4c-b53a-f76757514026: 'Tab Heading' # Tab Heading
     d2f74f8d-c18f-47d3-bf84-06ff803b0d92: Homepage # Homepage
     d5964d39-cf97-4afa-bd58-0decc4272b87: body # body
+    db3fcb60-f719-40d3-bad4-77dd112dee6b: Heading # Heading
     e19213fe-09b9-4f1b-be5f-0c6af684c979: 'Featured Items' # Featured Items
     ea94f442-5271-4806-9615-d5646aa78587: 'Content Blocks' # Content Blocks
     ea5053b7-2de8-4155-82a0-5a00464efa71: Default # Default
