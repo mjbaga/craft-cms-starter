@@ -3,6 +3,9 @@
 @import "./css/styles/_variables";
 @import "./css/styles/_mixins";
 @import "./css/styles/_helpers";
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+
 
 /* ------------------- */
 /*  Custom variables   */
@@ -207,3 +210,5 @@ section {
 @import './css/components/BlockTabs.scss';
 @import './css/components/SiteHeader.scss';
 @import './css/components/SiteFooter.scss';
+@import './css/components/Slider.scss';
+
