@@ -1,4 +1,4 @@
-dateModified: 1675931920
+dateModified: 1675934516
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -18,18 +18,22 @@ fs:
       subfolder: butterbase
     type: vaersaagod\dospaces\Fs
     url: $DEV_SPACES_BASE_URL
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
     00e79fbb-9025-48bc-86e0-6d1bba5d24ac: 'Tab Content' # Tab Content
     0e83711a-9cf5-475a-8870-95cf36695d4a: Heading # Heading
     0f5aadae-2721-41e8-933c-6e6c8efdaea6: 'Butter Base' # Butter Base
-    1c6f7825-37ef-467e-9bd9-880b6ebb7237: Description
+    1c6f7825-37ef-467e-9bd9-880b6ebb7237: Description # Description
     1ccee473-50af-40c5-8250-aaa76096767d: Media # Media
     1e76e75a-703a-4fa0-a4b7-6900bddca66f: 'Padding Classes' # Padding Classes
     2b3c1a92-4bbb-4ccf-b6d5-255d67cad436: Tabs # Tabs
     02e08cf1-f4fb-48eb-956f-953bf078d484: Body # Body
     2e322a3d-6592-4626-89bf-c3286fc7f809: 'Legal Navigation' # Legal Navigation
-    2e4337db-0083-4a95-8f08-bbadd4955177: Subtitle
+    2e4337db-0083-4a95-8f08-bbadd4955177: Subtitle # Subtitle
     3ca4309c-3bd0-4452-820c-583090fee623: 'Slidie Title' # Slidie Title
     3e4a4791-081c-44e5-b696-27fe15365b85: 'Slide Content' # Slide Content
     5b0ff9ce-59f0-4c80-aa74-97bbcea5b5fc: navlink # navlink
@@ -41,10 +45,11 @@ meta:
     8c9b4348-184c-4e97-99a4-6d2a6157189c: Announcement # Announcement
     17fb8838-f4d8-4a38-9156-1122b6ee8786: Body # Body
     34d757c2-6a46-4fac-abca-c39b46a73934: Heading # Heading
+    37c1a1db-b940-4cdd-ad3a-a123f35e1328: 'Public Schema'
     68f928fb-1a3a-4d60-bde4-8a8c7bbd28ae: Heading # Heading
     77efd199-d2df-4fbf-8a4b-a55cb0261ad7: 'Address Details' # Address Details
     78edba3e-0c3b-4229-a26a-38a8b83a1c35: Heading # Heading
-    79aa842e-51cb-4aa2-887c-d237fc2a404f: Heading
+    79aa842e-51cb-4aa2-887c-d237fc2a404f: Heading # Heading
     082c5614-1d5d-4619-bde0-482749dbd536: Accordion # Accordion
     230f5dc9-0101-42f6-8cc5-aa93235c2396: 'Menu Title' # Menu Title
     240f0a17-fabc-400a-972b-f66a52e68c4f: Default # Default
@@ -62,12 +67,13 @@ meta:
     a49e5098-eb39-419f-986b-3fd1111faac5: Slider # Slider
     a95ded72-28f3-40b1-84c8-7a4de0d59fdc: Accordion # Accordion
     a235ed0c-eb02-40e7-9562-90a73bbc794e: Accordion # Accordion
+    b5b45511-d660-4b43-99af-ecf49c21e74a: 'Butter Base'
     b6f093f0-e38b-466f-8c0f-1e8db96d4cd3: 'Menu Title' # Menu Title
     b55d7ffd-972e-47ea-963a-483533b482dc: Header # Header
     b90fe952-cbf8-4780-9b6a-7ab674d54548: Body # Body
     b177c7ba-2763-4f45-ab37-ddf88b5be6c1: 'Tab Content' # Tab Content
     b427388b-54d0-4be8-bea8-55771d9bfa34: 'Call to action' # Call to action
-    c074f4fe-289c-415e-9e81-8ce32db9b862: Image
+    c074f4fe-289c-415e-9e81-8ce32db9b862: Image # Image
     c0852df2-0482-43b0-ae48-eeb443a415e7: 'Main Navigation' # Main Navigation
     c4a33146-25e2-4b36-97cb-b6bc2032389c: Pages # Pages
     c8d24909-9834-4afa-9c6d-dfc0f16ef9d2: Slide # Slide
@@ -78,7 +84,7 @@ meta:
     d2f74f8d-c18f-47d3-bf84-06ff803b0d92: Homepage # Homepage
     d5964d39-cf97-4afa-bd58-0decc4272b87: body # body
     db3fcb60-f719-40d3-bad4-77dd112dee6b: Heading # Heading
-    e4d37003-92b6-46bf-a809-a834131fae21: 'Hero Banner'
+    e4d37003-92b6-46bf-a809-a834131fae21: 'Hero Banner' # Hero Banner
     e19213fe-09b9-4f1b-be5f-0c6af684c979: 'Featured Items' # Featured Items
     ea94f442-5271-4806-9615-d5646aa78587: 'Content Blocks' # Content Blocks
     ea5053b7-2de8-4155-82a0-5a00464efa71: Default # Default
