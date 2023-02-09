@@ -1,0 +1,16 @@
+<section class="block--heroBanner">
+	<div class="container">
+        <div class="banner-wrapper">
+            {% if block.image %}
+                <img class="hero-banner" src="{{block.image.one().url}}" alt="{{block.heading}}">
+            {% endif %}
+            <div class="banner-content">
+                <h1>{{block.heading}}</h1>
+                <span>{{block.subtitle}}</span>
+            </div>
+        </div>
+        <div class="banner-description">
+		    {{block.description}}
+        </div>
+	</div>
+</section>

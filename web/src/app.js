@@ -3,6 +3,10 @@
 import SiteHeader from './js/components/SiteHeader';
 import Accordion from './js/components/Accordion';
 import BlockTabs from './js/components/BlockTabs';
+import Slider from './js/components/Slider';
+import 'slick-carousel'
+
+
 
 $(() => {
 
@@ -21,6 +25,10 @@ $(() => {
       const $block = $(ele);
       new BlockTabs($block);
     })
+  }
+
+  if($('.block--slider').length) {
+    new Slider();
   }
 
 });

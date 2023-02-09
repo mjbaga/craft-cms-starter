@@ -1,0 +1,38 @@
+<section class="block--slider ">
+    <div class="">
+        <div class="slider-block container">
+
+            {% for slide in block.slide.all() %}
+
+                <div class="slide-container">
+
+                    <img style="width: 100%" src="{{ slide.image.one().url |default("") }}"/>
+
+                    <div class="slider-content">
+                        <h2> {{ slide.slideTitle|default("") }}</h2>
+
+                        <div> {{ slide.slideContent|default("") }}</div>
+
+                        <div>
+                            <a href="{{ slide.slideLink.getUrl() }}">
+                                <button>
+                                    {{ slide.slideLink.getText() }}
+                                </button>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            {% endfor %}
+
+        </div>
+
+
+    </div>
+
+
+</section>

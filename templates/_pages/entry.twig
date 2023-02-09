@@ -3,7 +3,7 @@
 {% block content %}
 	
 	{% if entry.type == 'homepage' %}
-		{% include "_builders/page--home" %}
+		{% include "_builders/page--home"  ignore missing%}
 	{% elseif entry.type == 'news' %}
 		{% include "_builders/page--news" %}
 	{% else %}
