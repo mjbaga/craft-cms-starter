@@ -1,4 +1,4 @@
-dateModified: 1675240293
+dateModified: 1675305844
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -43,7 +43,7 @@ meta:
     17fb8838-f4d8-4a38-9156-1122b6ee8786: Body # Body
     34d757c2-6a46-4fac-abca-c39b46a73934: Heading # Heading
     68f928fb-1a3a-4d60-bde4-8a8c7bbd28ae: Heading # Heading
-    77efd199-d2df-4fbf-8a4b-a55cb0261ad7: 'Address Details'
+    77efd199-d2df-4fbf-8a4b-a55cb0261ad7: 'Address Details' # Address Details
     78edba3e-0c3b-4229-a26a-38a8b83a1c35: Heading # Heading
     082c5614-1d5d-4619-bde0-482749dbd536: Accordion # Accordion
     230f5dc9-0101-42f6-8cc5-aa93235c2396: 'Menu Title' # Menu Title
@@ -90,6 +90,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+  enupal-translate:
+    edition: standard
+    enabled: true
+    licenseKey: CRAD3HNKHIGUP7VSUJ1VOFGD
+    schemaVersion: 3.0.0
   redactor:
     edition: standard
     enabled: true

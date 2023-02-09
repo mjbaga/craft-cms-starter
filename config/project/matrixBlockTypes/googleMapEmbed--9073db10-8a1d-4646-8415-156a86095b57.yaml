@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 77efd199-d2df-4fbf-8a4b-a55cb0261ad7
+            fieldUid: 77efd199-d2df-4fbf-8a4b-a55cb0261ad7 # Address Details
             instructions: null
             label: null
             required: true
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: 7d3e1a74-a0ab-47fe-8031-c8e9c8765735
         userCondition: null
 fields:
-  77efd199-d2df-4fbf-8a4b-a55cb0261ad7:
+  77efd199-d2df-4fbf-8a4b-a55cb0261ad7: # Address Details
     columnSuffix: muqyvaga
     contentColumnType: text
     fieldGroup: null
