@@ -4,6 +4,7 @@ import SiteHeader from './js/components/SiteHeader';
 import Accordion from './js/components/Accordion';
 import BlockTabs from './js/components/BlockTabs';
 import Slider from './js/components/Slider';
+import Testimonials from './js/components/Testimonials';
 import 'slick-carousel'
 
 
@@ -29,6 +30,10 @@ $(() => {
 
   if($('.block--slider').length) {
     new Slider();
+  }
+
+  if($('.block--testimonials').length) {
+    new Testimonials();
   }
 
 });
