@@ -1,0 +1,16 @@
+<section class="block--testimonials">
+    <div class="container">
+        <div class="testimonials-header">
+            <h2>{{block.heading}}</h2>
+            <span>{{block.subHeading}}</span>
+        </div>
+        <div class="testimonial-wrapper">
+        {% for testimonial in block.testimonials.all() %}
+            <div class="item">
+            <div class="testimonial">{{ testimonial.testimonial }}</div>
+            <div class="author">{{ testimonial.author }}</div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
