@@ -4,7 +4,7 @@ handle: news
 name: News
 propagationMethod: all
 siteSettings:
-  b5b45511-d660-4b43-99af-ecf49c21e74a:
+  b5b45511-d660-4b43-99af-ecf49c21e74a: # Butter Base
     enabledByDefault: true
     hasUrls: true
     template: _pages/entry.twig
