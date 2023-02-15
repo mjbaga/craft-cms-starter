@@ -1,0 +1,30 @@
+<section class="block--textImage ">
+        <div class="container {{ block.imagePosition?"reverse":"" }}">
+
+            <div class="col">
+                <img style="width: 100%" src="{{ block.image.one().url |default("") }}"/>
+                
+            </div>
+            <div class="col">
+
+                <div class="richText">
+                    {{ block.body|default("") }}
+
+                </div>
+                <div>
+                    <a href="{{ block.cta.getUrl() }}">
+                        <button>
+                            {{ block.cta.getText() }}
+                        </button>
+                    </a>
+                </div>
+            </div>
+            
+       
+
+        </div>
+
+
+ 
+
+</section>

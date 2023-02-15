@@ -1,0 +1,17 @@
+.block--textImage {
+  .container {
+    @include respond-to(sm-desktop) {
+      display: flex;
+      gap: 15px;
+    }
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .col {
+      flex: 50%;
+
+    }
+
+  }
+}
