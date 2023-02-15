@@ -1,0 +1,16 @@
+<section class="block--logoMarquee">
+    <div class="marquee-wrapper">
+        <div class="marquee">
+            <div class="marquee__group">
+                {% for i in range(0, 1) %}
+                    {% for logo in block.logos %}
+                        <div class="img-div">
+                            <img src="{{ logo.logo.one.getUrl() }}">
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
