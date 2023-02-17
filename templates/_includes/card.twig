@@ -1,0 +1,13 @@
+
+<div class="card">
+  {% if image|default(false) %}
+    <div class="image-container">
+      <img src="{{ image.one.url }}" alt="{{ image.one.title }}">
+    </div>
+  {% endif %}
+  <div class="text-container">
+    <h2 class="card-title">{{ title }}</h2>
+    {{ excerpt|length ? '<div class="richtext"></div>'|append(excerpt|raw) : '' }}
+    <a href="{{ link }}">Learn more</a>
+  </div>
+</div>

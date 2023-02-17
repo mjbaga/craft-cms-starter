@@ -1,3 +1,19 @@
 <div class="block--feature-cards">
-
+  <div class="container">
+    <div class="card-container">
+      {% for card in block.featuredItems.all() %}
+        {% include '_includes/card.twig' 
+          with { 
+            title: card.title, 
+            excerpt: card.excerpt,
+            image: card.thumbnail,
+            link: card.url
+          } 
+        %}
+      {% endfor %}
+    </div>
+    <div class="link-wrap">
+      <a href="#" class="btn">View All</a>
+    </div>
+  </div>
 </div>

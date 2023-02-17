@@ -1,0 +1,21 @@
+%btn {
+  padding: 8px 20px;
+  border: 2px solid color(black);
+  color: color(white);
+  background: color(black);
+  transition: $common-animation;
+  border-radius: 5px;
+
+  &:hover, &:focus {
+    color: color(black);
+    background: color(white);
+  }
+}
+
+.btn {
+  @extend %btn;
+}
+
+a.btn {
+  text-decoration: none;
+}

@@ -13,6 +13,7 @@
 :root {
   --clr-black: #{$black};
   --clr-white: #{$white};
+  --clr-peach: #{$peach};
 }
 
 /* ------------------- */
@@ -206,6 +207,11 @@ section {
 /* Modules             */
 /* ------------------- */
 
+@import './css/atoms/Button.scss';
+
+
+@import './css/molecules/Card.scss';
+
 @import './css/components/Accordion.scss';
 @import './css/components/BlockTabs.scss';
 @import './css/components/SiteHeader.scss';
@@ -215,6 +221,7 @@ section {
 @import './css/components/BlockTestimonials.scss';
 @import './css/components/BlockTextImage.scss';
 @import './css/components/BlockLogoMarquee.scss';
+@import './css/components/BlockFeatureCards.scss';
 
 
 
