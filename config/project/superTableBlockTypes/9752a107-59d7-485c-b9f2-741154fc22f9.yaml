@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 changedFieldIndicator: 298172253
 field: 76585342-5767-4458-84dc-419642b772ec
 fieldLayouts:
@@ -74,3 +75,81 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+=======
+changedFieldIndicator: 352819401
+field: 76585342-5767-4458-84dc-419642b772ec # Testimonials
+fieldLayouts:
+  b0a0e179-3da4-4d40-9b06-b281c4945bea:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 051cf5fd-907d-41fe-8172-064ba01abfca # Author
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b94fc99-e510-4a30-b902-d75b92710462
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6bfa45b8-0a4a-48e1-bedb-1fb0ec80cb2c # Testimonial
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 712c1b6e-7f4d-4492-887a-795b63be74d2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 00c15c27-f17a-47e8-8b2c-2c441b31109a
+        userCondition: null
+fields:
+  6bfa45b8-0a4a-48e1-bedb-1fb0ec80cb2c: # Testimonial
+    columnSuffix: obomdfjj
+    contentColumnType: text
+    fieldGroup: null
+    handle: testimonial
+    instructions: null
+    name: Testimonial
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  051cf5fd-907d-41fe-8172-064ba01abfca: # Author
+    columnSuffix: kjegvajk
+    contentColumnType: text
+    fieldGroup: null
+    handle: author
+    instructions: null
+    name: Author
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+>>>>>>> 4012d9a (server yaml auto commit)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 field: 3193946b-b765-4d14-a0ab-a4566728f07c # Content Blocks
 fieldLayouts:
   22af9d9e-d7ec-4824-a70f-638b0937b28c:
@@ -76,3 +77,83 @@ fields:
 handle: slider
 name: Slider
 sortOrder: 4
+=======
+field: 3193946b-b765-4d14-a0ab-a4566728f07c # Content Blocks
+fieldLayouts:
+  22af9d9e-d7ec-4824-a70f-638b0937b28c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c8d24909-9834-4afa-9c6d-dfc0f16ef9d2 # Slide
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 33267447-d667-4e65-b3dc-a34da44e094c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 48ee3a09-b908-4cd0-965d-ae054114aea3
+        userCondition: null
+fields:
+  c8d24909-9834-4afa-9c6d-dfc0f16ef9d2: # Slide
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: slide
+    instructions: null
+    name: Slide
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 632981645
+      columns:
+        __assoc__:
+          -
+            - 5ea4cbc3-8c8d-4915-aed3-b240ed09f0a0 # Image
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 3ca4309c-3bd0-4452-820c-583090fee623 # Slidie Title
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 3e4a4791-081c-44e5-b696-27fe15365b85 # Slide Content
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 932ab354-ed04-4fc5-b29b-8c0940c05e3e # SlideLink
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_6_slide}}'
+      fieldLayout: matrix
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+handle: slider
+name: Slider
+sortOrder: 5
+>>>>>>> 4012d9a (server yaml auto commit)

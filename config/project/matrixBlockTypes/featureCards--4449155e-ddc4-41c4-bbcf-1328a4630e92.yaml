@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 field: 3193946b-b765-4d14-a0ab-a4566728f07c # Content Blocks
 fieldLayouts:
   e0e8a851-e8ef-4a96-896d-082c59cbf44f:
@@ -215,3 +216,222 @@ fields:
 handle: featureCards
 name: 'Feature Cards'
 sortOrder: 3
+=======
+field: 3193946b-b765-4d14-a0ab-a4566728f07c # Content Blocks
+fieldLayouts:
+  e0e8a851-e8ef-4a96-896d-082c59cbf44f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 801ae06f-6c06-400d-ad36-fc1d4017f972 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 96b19207-5aa3-4b85-95f6-af64547d890f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b90fe952-cbf8-4780-9b6a-7ab674d54548 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 20efd260-3801-4d36-8056-a2afc537e7ae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e19213fe-09b9-4f1b-be5f-0c6af684c979 # Featured Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7fcebe82-7878-494a-8d98-924b88b165d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b427388b-54d0-4be8-bea8-55771d9bfa34 # Call to action
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7f9798be-eb9b-4b73-b160-bfac8ab7120c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f4e4c9dd-abaf-469c-b8f9-cb73cfed9da1
+        userCondition: null
+fields:
+  801ae06f-6c06-400d-ad36-fc1d4017f972: # Heading
+    columnSuffix: zlumxfea
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Simple.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  b90fe952-cbf8-4780-9b6a-7ab674d54548: # Body
+    columnSuffix: pvwkhrrr
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: null
+    name: Body
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  b427388b-54d0-4be8-bea8-55771d9bfa34: # Call to action
+    columnSuffix: wntrafqi
+    contentColumnType: string
+    fieldGroup: null
+    handle: callToAction
+    instructions: null
+    name: 'Call to action'
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: asset
+      defaultText: ''
+      enableAllLinkTypes: true
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  e19213fe-09b9-4f1b-be5f-0c6af684c979: # Featured Items
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: featuredItems
+    instructions: null
+    name: 'Featured Items'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: 3
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:cacf2ab9-82ca-4b60-9328-6dd17a39e489' # News
+        - 'section:c4a33146-25e2-4b36-97cb-b6bc2032389c' # Pages
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: featureCards
+name: 'Feature Cards'
+sortOrder: 2
+>>>>>>> 4012d9a (server yaml auto commit)

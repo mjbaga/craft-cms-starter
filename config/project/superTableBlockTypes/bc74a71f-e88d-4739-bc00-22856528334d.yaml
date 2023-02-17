@@ -1,0 +1,71 @@
+changedFieldIndicator: 567459943
+field: 6f021952-9edc-4df6-ad77-d7a284524370 # Logos
+fieldLayouts:
+  631eaf6a-5d69-4229-9c47-1740038e7316:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 35cacd4a-d8b1-47ba-a0be-38bc3c089aa6 # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8667c1d9-dae7-440a-adff-c5884f2f3c2a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8ac8f525-0b2a-4874-95ea-98238ba513d6
+        userCondition: null
+fields:
+  35cacd4a-d8b1-47ba-a0be-38bc3c089aa6: # Logo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: logo
+    instructions: null
+    name: Logo
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:1ccee473-50af-40c5-8250-aaa76096767d' # Media
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:1ccee473-50af-40c5-8250-aaa76096767d' # Media
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
