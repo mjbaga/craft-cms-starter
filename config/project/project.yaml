@@ -1,4 +1,4 @@
-dateModified: 1676452342
+dateModified: 1676885460
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -110,6 +110,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+  enupal-translate:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
   redactor:
     edition: standard
     enabled: true

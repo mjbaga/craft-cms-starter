@@ -2,7 +2,7 @@
   "require": {
     "craftcms/cms": "^4.2.1",
     "craftcms/redactor": "3.0.3",
-    "enupal/translate": "3.0.1",
+    "enupal/translate": "^3.0",
     "sebastianlenz/linkfield": "^2.1",
     "vaersaagod/dospaces": "^2.0",
     "verbb/super-table": "3.0.7",
