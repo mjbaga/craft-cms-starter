@@ -1,0 +1,84 @@
+changedFieldIndicator: 1078844577
+field: a95ded72-28f3-40b1-84c8-7a4de0d59fdc # Accordion
+fieldLayouts:
+  e0dfd133-66be-4448-8073-ddba82f5b8d0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c4119900-004c-4731-9081-de3a696eacde # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c509f5bd-1220-44c6-bc0a-3103612bb217
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3127e518-f710-485b-9cd9-68f3382f27b4 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d1edbaa8-3d58-41ea-82a5-48b99bca9993
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 98210aba-32f8-46b6-ad12-a353701fb7cb
+        userCondition: null
+fields:
+  3127e518-f710-485b-9cd9-68f3382f27b4: # Body
+    columnSuffix: oydcpjnd
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: null
+    name: Body
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  c4119900-004c-4731-9081-de3a696eacde: # Heading
+    columnSuffix: djnviofx
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

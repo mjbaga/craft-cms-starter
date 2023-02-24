@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f5d951bd-7589-4e90-a038-1d04fa2f7c1b # Common
+handle: mainNavigation
+instructions: null
+name: 'Main Navigation'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 1414860966
+  contentTable: '{{%stc_mainnavigation}}'
+  fieldLayout: matrix
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

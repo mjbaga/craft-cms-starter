@@ -1,4 +1,4 @@
-dateModified: 1677224241
+dateModified: 1677202554
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -120,9 +120,13 @@ plugins:
     edition: standard
     enabled: true
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     licenseKey: IIAXCVP74O8U1O91YW8N0EMI
 >>>>>>> develop
+=======
+    licenseKey: IIAXCVP74O8U1O91YW8N0EMI
+>>>>>>> 266382d (server yaml auto commit)
     schemaVersion: 3.0.0
   redactor:
     edition: standard
