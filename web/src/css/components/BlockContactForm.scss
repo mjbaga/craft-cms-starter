@@ -1,0 +1,32 @@
+.block--contact-form {
+
+	.container{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+
+		@include respond-to(sm-desktop){
+			flex-direction: row;
+		}
+
+		& > div {
+			width: 50%;
+		}
+
+		.form-group {
+			display: flex;
+			flex-direction: column;
+			margin-block: 5px;
+
+		}
+		ul.errors {
+			margin-block: 2px;
+			padding-left: 0;
+
+			li {
+				list-style: none;
+			}
+		}
+	}
+  }
