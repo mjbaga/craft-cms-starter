@@ -1,4 +1,4 @@
-dateModified: 1676885460
+dateModified: 1677211129
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -47,6 +47,7 @@ meta:
     7ef48fe6-b2e7-4db6-8780-d05ca6e76712: Accordion # Accordion
     8c9b4348-184c-4e97-99a4-6d2a6157189c: Announcement # Announcement
     9c07bc61-0ec7-4e84-9f4b-ab5fb7cadbc3: 'Text Image' # Text Image
+    11f753ea-a516-4464-b556-887ada297e53: 'Google Map Embed'
     17fb8838-f4d8-4a38-9156-1122b6ee8786: Body # Body
     34d757c2-6a46-4fac-abca-c39b46a73934: Heading # Heading
     35cacd4a-d8b1-47ba-a0be-38bc3c089aa6: Logo # Logo
@@ -61,6 +62,7 @@ meta:
     240f0a17-fabc-400a-972b-f66a52e68c4f: Default # Default
     492a65c6-b7ba-4461-a03f-d56f9235cfbd: CTA # CTA
     559d5611-2026-4246-947d-c9a3483290ca: Image # Image
+    614e8403-7e46-4e90-bfee-32b96e22392d: Heading
     801ae06f-6c06-400d-ad36-fc1d4017f972: Heading # Heading
     883ce90a-ab3e-4732-a747-7441c90a4b61: Body # Body
     919d3e3b-e519-41d6-bc52-9d7f689a94f3: Navlink # Navlink
@@ -69,6 +71,7 @@ meta:
     3341b3a5-98b1-4993-ac5a-e98225baef6a: Body # Body
     7494fe72-686b-42b0-be10-ec1a377f204d: 'Image Position' # Image Position
     72756b12-b88c-44c1-9d00-947d14e9b5b9: Homepage # Homepage
+    171101f6-dccd-4801-bec2-8f4dec8fe074: 'Address Details'
     3193946b-b765-4d14-a0ab-a4566728f07c: 'Content Blocks' # Content Blocks
     4449155e-ddc4-41c4-bbcf-1328a4630e92: 'Feature Cards' # Feature Cards
     8466994d-4dfd-4f8f-89c4-b49c4d06c5e8: Navlink # Navlink
@@ -113,6 +116,10 @@ plugins:
   enupal-translate:
     edition: standard
     enabled: true
+<<<<<<< HEAD
+=======
+    licenseKey: IIAXCVP74O8U1O91YW8N0EMI
+>>>>>>> develop
     schemaVersion: 3.0.0
   redactor:
     edition: standard
