@@ -1,4 +1,4 @@
-dateModified: 1677202554
+dateModified: 1677225167
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -119,14 +119,7 @@ plugins:
   enupal-translate:
     edition: standard
     enabled: true
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     licenseKey: IIAXCVP74O8U1O91YW8N0EMI
->>>>>>> develop
-=======
-    licenseKey: IIAXCVP74O8U1O91YW8N0EMI
->>>>>>> 266382d (server yaml auto commit)
     schemaVersion: 3.0.0
   redactor:
     edition: standard
@@ -144,6 +137,17 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+    settings:
+      cp_label: Forms
+      disabled_fields: ''
+      from_email: devs@butter.com.hk
+      from_name: ButterBase
+      recaptcha_min_score: '0.5'
+      recaptcha_public: ''
+      recaptcha_secret: ''
+      recaptcha_version: '2'
+      success_message: 'Thank You! we will review your submission shortly.'
+      volume_id: ''
 system:
   edition: pro
   live: true
