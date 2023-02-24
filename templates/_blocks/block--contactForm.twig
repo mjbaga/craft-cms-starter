@@ -1,0 +1,38 @@
+<section class="block--contact-form">
+  <div class="container">
+    <div class="contents-wrapper">
+        <h2>{{block.heading}}</h2>
+        <div class="richtext">
+            {{block.description}}
+        </div>
+    </div>
+    <div class="form-wrapper">
+        {% macro errorList(errors) %}
+            {% if errors %}
+                <ul class="errors">
+                    {% for error in errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endmacro %}
+        {% from _self import errorList %}
+
+        {% set form = wheelform.form({
+            id: 1,
+            redirect: 'contact/thanks'
+        }) %}
+
+        {{ form.open() }}
+            {{ wheelformErrors['form'] is defined ? errorList(wheelformErrors['form']) }}
+            {{ wheelformErrors['recaptcha'] is defined ? errorList(wheelformErrors['recaptcha']) }}
+            {{ wheelformErrors['honeypot'] is defined ? errorList(wheelformErrors['honeypot']) }}
+
+            {% for field in form.fields %}
+                {{ field.render() }}
+                {{ wheelformErrors[field.name] is defined ? errorList(wheelformErrors[field.name]) }}
+            {% endfor %}
+        {{ form.close() }}
+    </div>
+  </div>
+</section>composer require hybridinteractive/craft-contact-form-extensions -w && php craft plugin/install contact-form-extensions

@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 614e8403-7e46-4e90-bfee-32b96e22392d
+            fieldUid: 614e8403-7e46-4e90-bfee-32b96e22392d # Heading
             instructions: null
             label: null
             required: false
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 171101f6-dccd-4801-bec2-8f4dec8fe074
+            fieldUid: 171101f6-dccd-4801-bec2-8f4dec8fe074 # Address Details
             instructions: null
             label: null
             required: true
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: 838d9092-d94f-404b-9967-93a2a11f85ad
         userCondition: null
 fields:
-  614e8403-7e46-4e90-bfee-32b96e22392d:
+  614e8403-7e46-4e90-bfee-32b96e22392d: # Heading
     columnSuffix: yzuodjby
     contentColumnType: text
     fieldGroup: null
@@ -53,7 +53,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  171101f6-dccd-4801-bec2-8f4dec8fe074:
+  171101f6-dccd-4801-bec2-8f4dec8fe074: # Address Details
     columnSuffix: qdpwzcam
     contentColumnType: text
     fieldGroup: null
