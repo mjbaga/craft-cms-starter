@@ -1,0 +1,46 @@
+field: 3193946b-b765-4d14-a0ab-a4566728f07c # Content Blocks
+fieldLayouts:
+  aef96ee9-9276-491e-a45d-c11d7ee3011d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b520ddfe-6584-49bf-92d2-37b676bd9a5e # Test Field
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca89baa7-3839-420e-9f91-819380ada65a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 40ad2380-9ab7-4864-bf3c-815f20883dd4
+        userCondition: null
+fields:
+  b520ddfe-6584-49bf-92d2-37b676bd9a5e: # Test Field
+    columnSuffix: owyfamwc
+    contentColumnType: text
+    fieldGroup: null
+    handle: testField
+    instructions: 'Doesn''t do Anything'
+    name: 'Test Field'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: enupalTest
+name: 'Enupal Test'
+sortOrder: 11
