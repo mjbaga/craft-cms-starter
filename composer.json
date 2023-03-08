@@ -1,6 +1,7 @@
 {
   "require": {
     "craftcms/cms": "^4.2.1",
+    "craftcms/element-api": "3.0.1.1",
     "craftcms/redactor": "3.0.3",
     "enupal/translate": "^3.0",
     "sebastianlenz/linkfield": "^2.1",
