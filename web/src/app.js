@@ -5,6 +5,7 @@ import Accordion from './js/components/Accordion';
 import BlockTabs from './js/components/BlockTabs';
 import Slider from './js/components/Slider';
 import Testimonials from './js/components/Testimonials';
+import Listing from './js/components/Listing';
 import 'slick-carousel'
 
 
@@ -34,6 +35,10 @@ $(() => {
 
   if($('.block--testimonials').length) {
     new Testimonials();
+  }
+
+  if($('#list').length) {
+    new Listing();
   }
 
 });
