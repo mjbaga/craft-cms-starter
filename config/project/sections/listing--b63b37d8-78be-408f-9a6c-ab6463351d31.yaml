@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: listing
+name: Listing
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  b5b45511-d660-4b43-99af-ecf49c21e74a: # Butter Base
+    enabledByDefault: true
+    hasUrls: true
+    template: listing/_entry
+    uriFormat: 'listing/{slug}'
+type: channel

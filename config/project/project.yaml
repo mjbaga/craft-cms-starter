@@ -1,4 +1,4 @@
-dateModified: 1677478131
+dateModified: 1677748255
 email:
   fromEmail: marvin@butter.com.hk
   fromName: 'Butter Base'
@@ -18,15 +18,12 @@ fs:
       subfolder: butterbase
     type: vaersaagod\dospaces\Fs
     url: $DEV_SPACES_BASE_URL
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 meta:
   __names__:
     00e79fbb-9025-48bc-86e0-6d1bba5d24ac: 'Tab Content' # Tab Content
     0e83711a-9cf5-475a-8870-95cf36695d4a: Heading # Heading
     0f5aadae-2721-41e8-933c-6e6c8efdaea6: 'Butter Base' # Butter Base
+    1c0ef025-ba77-482c-b55c-d1e6f9666bad: Default # Default
     1c6f7825-37ef-467e-9bd9-880b6ebb7237: Description # Description
     1ccee473-50af-40c5-8250-aaa76096767d: Media # Media
     1e76e75a-703a-4fa0-a4b7-6900bddca66f: 'Padding Classes' # Padding Classes
@@ -78,6 +75,7 @@ meta:
     4449155e-ddc4-41c4-bbcf-1328a4630e92: 'Feature Cards' # Feature Cards
     8466994d-4dfd-4f8f-89c4-b49c4d06c5e8: Navlink # Navlink
     56547699-1cf7-4bff-93c7-3c3a1b82d699: Footer # Footer
+    61375875-bb85-4738-9c54-a5b16ee351c8: 'Public Schema' # Public Schema
     76585342-5767-4458-84dc-419642b772ec: Testimonials # Testimonials
     94211255-4d75-4bc2-87c1-ebb3707903e7: Tabs # Tabs
     a49e5098-eb39-419f-986b-3fd1111faac5: Slider # Slider
@@ -89,6 +87,7 @@ meta:
     b5b45511-d660-4b43-99af-ecf49c21e74a: 'Butter Base' # Butter Base
     b6f093f0-e38b-466f-8c0f-1e8db96d4cd3: 'Menu Title' # Menu Title
     b55d7ffd-972e-47ea-963a-483533b482dc: Header # Header
+    b63b37d8-78be-408f-9a6c-ab6463351d31: Listing # Listing
     b90fe952-cbf8-4780-9b6a-7ab674d54548: Body # Body
     b177c7ba-2763-4f45-ab37-ddf88b5be6c1: 'Tab Content' # Tab Content
     b520ddfe-6584-49bf-92d2-37b676bd9a5e: 'Test Field' # Test Field
