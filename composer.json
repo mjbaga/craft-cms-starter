@@ -1,13 +1,14 @@
 {
   "require": {
     "craftcms/cms": "^4.2.1",
+    "craftcms/element-api": "3.0.1.1",
     "craftcms/redactor": "3.0.3",
-    "enupal/translate": "3.0.1",
+    "enupal/translate": "^3.0",
     "sebastianlenz/linkfield": "^2.1",
     "vaersaagod/dospaces": "^2.0",
     "verbb/super-table": "3.0.7",
     "vlucas/phpdotenv": "^5.4.0",
-    "xpertbot/craft-wheelform": "3.1.5"
+    "xpertbot/craft-wheelform": "^3.1"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"

@@ -1,0 +1,136 @@
+field: 3193946b-b765-4d14-a0ab-a4566728f07c # Content Blocks
+fieldLayouts:
+  eca0b235-3493-4a97-b33f-7c02e4a10450:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0e83711a-9cf5-475a-8870-95cf36695d4a # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 208f3aeb-92a4-430c-8818-7f8073d76171
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d5964d39-cf97-4afa-bd58-0decc4272b87 # body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ddecca09-3417-46e5-8427-559bbb93a30f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a95ded72-28f3-40b1-84c8-7a4de0d59fdc # Accordion
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9f93a57d-8e68-49e1-8f9f-b5944f78a505
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c7c21963-a920-4603-8704-30861fd76e55
+        userCondition: null
+fields:
+  0e83711a-9cf5-475a-8870-95cf36695d4a: # Heading
+    columnSuffix: gsacklap
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a95ded72-28f3-40b1-84c8-7a4de0d59fdc: # Accordion
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: accordion
+    instructions: null
+    name: Accordion
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 663798248
+      columns:
+        __assoc__:
+          -
+            - c4119900-004c-4731-9081-de3a696eacde # Heading
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 3127e518-f710-485b-9cd9-68f3382f27b4 # Body
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_2_accordion}}'
+      fieldLayout: table
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+  d5964d39-cf97-4afa-bd58-0decc4272b87: # body
+    columnSuffix: gwhvfexq
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: null
+    name: body
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: accordion
+name: Accordion
+sortOrder: 1

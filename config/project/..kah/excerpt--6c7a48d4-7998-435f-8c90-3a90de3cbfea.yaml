@@ -1,0 +1,19 @@
+columnSuffix: hkcchqqu
+contentColumnType: string(800)
+fieldGroup: f5d951bd-7589-4e90-a038-1d04fa2f7c1b # Common
+handle: excerpt
+instructions: null
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 200
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

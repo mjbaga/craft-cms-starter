@@ -1,0 +1,43 @@
+{% extends "_layouts/page-layout--default" %}
+
+{% block content %}
+
+    <section>
+        <div class="container" id="list">
+
+            <div v-for="v in items">
+
+                <h2>
+                    ${v.title}
+                </h2>
+
+                <div class="richtext" v-html="v.body">
+
+                </div>
+
+
+                <hr>
+
+            </div>
+
+
+            <div v-if="next">
+
+                <button @click="loadMore">Load more</button>
+            </div>
+
+
+            <hr/>
+            <div v-if="next">
+
+                <button @click="goTo(next)">Next</button>
+            </div>
+
+            <div v-if="prev">
+
+                <button @click="goTo(prev)">Prev</button>
+            </div>
+        </div>
+
+    </section>
+{% endblock %}
