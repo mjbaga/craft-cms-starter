@@ -4,6 +4,7 @@
     "craftcms/element-api": "3.0.1.1",
     "craftcms/redactor": "3.0.3",
     "enupal/translate": "^3.0",
+    "putyourlightson/craft-sherlock": "4.3.0",
     "sebastianlenz/linkfield": "^2.1",
     "vaersaagod/dospaces": "^2.0",
     "verbb/super-table": "3.0.7",
